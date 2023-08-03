@@ -1,0 +1,52 @@
+.amovie {
+  width: 350px;
+  background: #fffefe;
+  margin: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  transition: color 0.3s;
+
+  a {
+    text-decoration: none;
+    color: #32a2c5;
+
+    .title {
+      text-align: left;
+      font-size: 18px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    .date {
+      text-align: left;
+      color: #333;
+    }
+  }
+  .imgBox{
+    width: 100%;
+    height: 525px;
+    background-image: url(../img/test1.jpg);
+    opacity: 1;
+    position: relative;
+    .img {
+      width: 100%;
+      height: 525px;
+      background-color: deeppink; /* Set initial background color */
+    }
+  }
+  &:hover {
+    .img {
+      opacity: .4;
+      // background: deeppink;
+      background-image: url(../img/test1.jpg);
+      background-size: cover;
+    }
+    a {
+      .title {
+        color: deeppink; /* hover 시 .title의 컬러 변경 */
+      }
+    }
+  }
+}

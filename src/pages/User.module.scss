@@ -1,0 +1,41 @@
+.loding{text-align: center; color: #fff;}
+
+.userBox{
+    width: 1000px; height: 500px; 
+    margin: 50px auto;
+    background: #000000;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    .nameBox{
+        position: absolute;
+        top: 35%;
+        left: 12%;
+        color: #fff;
+        font-size: 20px;
+        line-height: 2;
+        .box1{
+            width: 500px;
+            height: 500px;
+            color: #fff;
+            display: flex;            
+            flex-basis: 1;
+            .name{margin-left: 170px; margin-top: 10px;}
+            .email{margin-left: 170px; margin-top: 10px;}
+            .phone{margin-left: 170px; margin-top: 10px;}
+            .website{margin-left: 170px; margin-top: 10px;}
+        }
+    }
+    .box2{
+        display: flex;
+        width: 500px;
+        box-sizing: border-box;
+        margin-top: 30px;
+        img{
+        }
+    }
+}
+.h2{text-align: center;
+    color: #ddd;
+}
+

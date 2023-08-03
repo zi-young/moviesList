@@ -1,0 +1,21 @@
+.user{
+    // height: 100vh;
+    .box{
+        width: 500px;
+        background: rgba(0,0,0,.5);
+        margin: 0 auto;
+        text-align: center;
+        padding: 50px;
+        .img{
+
+        }
+        .overview{
+            color: #fff;
+            margin: 20px 0;
+        }
+        .voteAverage{
+            color: red;
+            font-size: 24px;
+        }
+    }
+}
