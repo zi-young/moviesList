@@ -1,21 +1,30 @@
 .user{
-    // height: 100vh;
+    background: black;
+    padding: 100px;
     .box{
         width: 500px;
-        background: rgba(0,0,0,.5);
         margin: 0 auto;
         text-align: center;
-        padding: 50px;
+        background: white;
+        padding: 20px;
         .img{
 
         }
         .overview{
-            color: #fff;
+            color: #000;
             margin: 20px 0;
         }
-        .voteAverage{
-            color: red;
-            font-size: 24px;
+        .averageBox{
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            .icon{color: red; vertical-align: middle;}
+            .voteAverage{
+                color: red;
+                font-size: 20px;
+                display: inline;
+                font-weight: bold;
+            }
         }
     }
 }

@@ -18,9 +18,6 @@ const Navbar = () => {
                 <li className='nav-itme rightList'>
                     <NavLink to="users">Users</NavLink>
                 </li>
-                <li className='nav-itme rightList'>
-                    <NavLink to="users">Users</NavLink>
-                </li>
             </ul>
         </nav>
     );

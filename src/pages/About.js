@@ -1,3 +1,4 @@
+import { AiTwotoneStar } from "react-icons/ai"; 
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
@@ -25,14 +26,17 @@ const About = () => {
             alt={m.title}
             />
             <div  className={styles.overview}>{m.overview}</div>
-            <div  className={styles.voteAverage}>{m.vote_average}</div>
+            <div className={styles.averageBox}>
+                <p className={styles.icon}><AiTwotoneStar /></p>
+                <div  className={styles.voteAverage}>&nbsp;{m.vote_average}</div>
+            </div>
         </div>
     </div>
     )
 
     return (
         <div>
-            <h2 className={`${styles.h2}`}>detail</h2>
+            {/* <h2 className={`${styles.h2}`}>detail</h2> */}
             {movieDetail}
         </div>
     );

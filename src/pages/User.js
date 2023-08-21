@@ -35,7 +35,7 @@ const User = () => {
 
     return (
         <div>
-            <h2 className={`${styles.h2}`}>User Info</h2>
+            <h1 className={`${styles.h1}`}>User Info</h1>
             {userDetail}
         </div>
     );
