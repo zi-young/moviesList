@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/moviesList/static/css/main.9833bb87.css",
+    "main.js": "/moviesList/static/js/main.c1725c10.js",
+    "static/media/user1.png": "/moviesList/static/media/user1.cb59afdda3bca55b0e55.png",
+    "static/media/test1.jpg": "/moviesList/static/media/test1.f61704de7819071f55ae.jpg",
+    "static/media/Helvetica Condensed Bold.ttf": "/moviesList/static/media/Helvetica Condensed Bold.bdbfb2b32b1436975b25.ttf",
+    "index.html": "/moviesList/index.html",
+    "main.9833bb87.css.map": "/moviesList/static/css/main.9833bb87.css.map",
+    "main.c1725c10.js.map": "/moviesList/static/js/main.c1725c10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9833bb87.css",
+    "static/js/main.c1725c10.js"
+  ]
+}
